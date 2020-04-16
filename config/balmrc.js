@@ -40,8 +40,7 @@ module.exports = {
   },
   assets: {
     root: 'assets', // Replace 'assets' to your remote project root
-    mainDir: 'public',
-    cache: true
+    mainDir: 'public'
   }
   // More Config
 };
