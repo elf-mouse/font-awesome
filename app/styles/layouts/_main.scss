@@ -1,0 +1,31 @@
+@use '../global/index' as global;
+
+.container {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: global.$fontSize-m;
+  text-align: center;
+  color: global.$primaryColor;
+  background-color: global.$primaryBgColor;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 120px;
+  height: 120px;
+  margin: 4px;
+  background: #eee;
+}
+
+.fa {
+  font-size: 24px;
+  margin-bottom: 10px;
+}

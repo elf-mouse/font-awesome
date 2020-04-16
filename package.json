@@ -1,0 +1,24 @@
+{
+  "name": "font-awesome",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "Elf-mousE <ifmouz@gmail.com>",
+  "scripts": {
+    "dev": "gulp --silent",
+    "prod": "gulp --silent -p"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "balm": "^2.10.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "gulp": "^4.0.2",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "private": true
+}
